@@ -1,0 +1,66 @@
+/* .but
+{
+    border: 1px solid blue;
+    border-radius: 7%;
+    background-color: blue;
+    width: 10%;
+    padding: 0.5%;
+    margin-left: 84%;
+    color: white;
+} */
+.job-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  
+.job-card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 70%;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  .job-card:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+  }  
+.h1job{
+    font-size: 2rem; 
+    font-weight: bold; 
+}
+.pjob{
+    margin-left: 6%;
+}
+
+.but {
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 84%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.but:hover {
+    /* background-color: #45a049; */
+    background-color: rgb(76, 76, 239);
+}
+
+.h6job
+{
+    font-size:small;
+}
+.uljob
+{
+    margin-left: 6%;
+}
