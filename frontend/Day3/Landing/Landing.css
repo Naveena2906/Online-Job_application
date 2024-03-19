@@ -1,0 +1,209 @@
+.land
+{
+    /* top: 0%; */
+    /* margin-top: 3%; */
+    width: 100%;
+    height: 80vh;
+    /* background-image: url("Image/imagepic.jpg"); */
+    background-image: url("https://w0.peakpx.com/wallpaper/477/344/HD-wallpaper-smiling-man-using-laptop-computer-while-sitting-on-black-leather-sofa.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* margin-top: -15%;
+    margin-left: -55%;
+    color: white; 
+    font-size: 2em; */
+    /* background-image: url("https://w0.peakpx.com/wallpaper/477/344/HD-wallpaper-smiling-man-using-laptop-computer-while-sitting-on-black-leather-sofa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;  */
+}
+.land-title
+{
+    position: absolute;
+    top: 7rem;
+    left: 5rem;
+    font-weight: bolder;
+    /* letter-spacing: 3rem; */
+    font-size: 400%;
+    color: white;
+    /* color: var(--whiteColor); */
+    text-shadow: 4px 2px 0px rgba(0,0,0,0.2);
+}
+.land-title >span{
+    color: blue
+}
+.content-container {
+    text-align: center; /* Center the text */
+}
+/* .landbody */
+/* { */
+    /* background-image: url("https://w0.peakpx.com/wallpaper/477/344/HD-wallpaper-smiling-man-using-laptop-computer-while-sitting-on-black-leather-sofa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-position: center top; */
+    /* background: rgb(11,6,93);
+background: linear-gradient(90deg, rgba(11,6,93,1) 0%, rgba(28,28,150,1) 28%, rgba(95,218,243,1) 100%); */
+/* height: 80vh;
+width: 100%;
+position: relative;
+display: flex;
+    justify-content: center;
+    align-items: center; */
+/* } */
+/* .land1
+{
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: -1; 
+    background-image: url("https://assets-global.website-files.com/62196607bf1b46c300301846/6568ae2781183414915a81a1_g5v8jnbpdddkj3njs3iu.webp");
+} */
+.search-but
+{
+width: 300px;
+/* margin-left: -30%; */
+margin-right: 20%;
+top: 3%;
+/* margin-top: 67%; */
+/* background: var(--primaryColor); */
+/* border: 1px solid blue; */
+/* color: blue; */
+/* padding: 1%; */
+/* margin-top: 1%; */
+
+border: 1px solid blue;
+background-color: blue;
+/* color: var(--whiteColor); */
+cursor: pointer;
+/* margin-left: 10%; */
+}
+.search-input
+{
+    height: 100%;
+    /* margin-top: 55%; */
+    width: 100%;
+    border: none;
+    /* height: 4vh; */
+    padding: 0.5rem;
+    margin-left: 4%;
+}
+.search-wrapper {
+    width: 60%;
+    margin: auto;
+    min-width: 300px;
+    /* border-radius: 10%; */
+    /* margin-top: 1%; */
+    height: 3.5rem;
+    position: relative;
+}
+.search-box{
+      /* border: 2px solid black; */
+    width: 90%;
+    position: absolute;
+    background-color: var(--greyColor);
+    /* background-color: grey; */
+    box-shadow: rgba(2,11,20,0.2) 0px 5px 15px;
+    top: -45%;
+    height: 100%;
+    margin-left: 13%;
+  }
+  .search-card
+  {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0.5rem;
+    /* margin-left: 10%; */
+  }
+
+  .filter-box
+  {
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+    width: 60%;
+    min-width: 300px;
+    margin: auto;
+    margin-left: 30%;
+  }
+  .filter-dropdown
+  {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+
+  }
+  .filter-select
+  {
+    border: none;
+    padding: 0.2rem;
+  }
+  .filter-select:hover{
+    /* background: grey; */
+  }
+  .filter-chosen
+  {
+    width: 100%;
+    padding: 0.3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .chosen-card
+  {
+    background: blue;
+    padding: 0.2rem 0.5rem;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+
+  .job-desc
+  {
+    margin-left: 38%;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5%;
+  }
+  .top-companies-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px; /* Add padding to the container */
+    margin-left: 13%;
+  }
+  
+  .company-card {
+    flex: 0 0 auto; /* Prevent items from wrapping to the next line */
+    width: 200px;
+    height: 100px;
+    margin-right: 10px; /* Add margin between cards */
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 2%; */
+  }
+  
+  .scroll-navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 85%;
+    margin-top: -5%;
+    cursor: pointer;
+    font-size: 24px; /* Adjust font size */
+    color: blue; /* Set color */
+  }
+  
+  
+  
+  
