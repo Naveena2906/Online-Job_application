@@ -1,0 +1,125 @@
+/* .Signupbody{ */
+    /* margin-top: -150px; */
+    /* padding: 22%; */
+    /* margin-left: 90px; */
+    
+/* } */
+/* .signuptotal */
+/* { */
+    /* border: 1px solid black; */
+    /* width: 90%; */
+    /* margin-left: 5%;
+    margin-top: 4%;
+    border-radius: 100px; */
+    /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,100); */
+/* 
+}
+.top
+{
+    font-size:200%;
+    width: 500px;
+    margin-left: 13%;
+    padding: 10%;
+}
+.Signform
+{
+    width: 40%;
+    height: 80vh;
+    border-radius: 6%;
+    margin-left: 47%; 
+   margin-top: -38%;
+}
+.sign
+{
+    padding: 1%;
+    width: 350px;
+    margin-left: -30%;
+    border: 1px solid black;
+    border-radius: 6px; 
+}
+.signin{
+    padding: 7px;
+} 
+
+.but-sign {
+    display: inline-flex;
+    margin-left: 10%;
+  padding: 0.7rem 2rem;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 3rem;
+
+    background-color:rgb(73, 73, 245);
+  } */
+
+  .signuptotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Signform {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: -530px;
+    margin-left: 40%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .top {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .signin {
+    margin-bottom: 15px;
+  }
+  
+  .sign {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input[type="checkbox"] {
+      cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .but-sign {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 33%;
+  }
+  
+  .but-sign:hover {
+    background-color: #0056b3;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+
