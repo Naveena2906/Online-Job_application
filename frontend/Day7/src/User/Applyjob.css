@@ -1,0 +1,60 @@
+.job-body
+{
+    margin-left: 30%;
+    margin-top: 8%;
+    /* border: 1px solid black; */
+    width: 40%;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.3);
+}
+.input-wrapper
+{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    align-items: center;
+}
+.job-card1{
+    padding: 0.5%;
+    margin-left: 27%;
+}
+.job{
+    padding: 1%;
+    width: 10%;
+}
+.job1{
+    padding: 1%;
+    margin-top: 1%;
+    border: 1px solid black;
+    border-radius: 2%;
+    /* top: 10%; */
+    margin-left: 1%;
+    width: 40%;
+}
+.job2{
+    padding: 1%;
+    margin-top: 1%;
+    border: 1px solid black;
+    border-radius: 2px;
+    /* top: 10%; */
+    margin-left: 1%;
+    width: 40%;
+}
+.file1{
+    margin-left: 2%;
+    margin-left: 32%;
+}
+.jobs{
+    margin-left: 2%;
+}
+.persign
+{
+    margin-top: -18%;
+    margin-left: 28%;
+    font-size: larger;
+    font-weight: bold;
+}
+.personal
+{
+    margin-top: 14%;
+    margin-left: 6%;
+}

@@ -1,0 +1,73 @@
+.company{
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    width: 1100px;
+    border: 1px solid wheat;
+    padding: 16px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.company:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.company .company1div{
+    display: flex;
+    justify-content: space-between;
+}
+.company .company1div .left{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.company .company1div .left img{
+    height: 64px;
+    width: 64px;
+}
+.company .company1div .left h2 {
+   margin: 0;
+}
+.company .company1div .left p {
+   margin: 0;
+   color: green;
+   font-weight: 800;
+}
+
+.company .company1div .right {
+   display: flex;
+   align-items: center;
+   width: 35%;
+   justify-content: space-between;
+}
+
+.company .company1div .right div h2 {
+   margin: 0;
+}
+
+.company .company1div .right div p {
+   margin: 0;
+   color: rgba(0, 0, 255, 0.682);
+}
+
+.company2div{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.company2div div h2{
+    margin: 0;
+}
+.company2div div p{
+    margin: 0;
+}
+.company3div{
+    margin: 10px 0;
+}
+.company3div h4{
+    font-weight: 700;
+    margin: 0;
+}
+.company3div p{
+    margin: 0;
+}
